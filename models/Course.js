@@ -33,6 +33,7 @@ const courseSchema = new Schema(
   }
 );
 
+
 const Course = model('course', courseSchema);
 
 module.exports = Course;
